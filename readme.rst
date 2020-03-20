@@ -18,10 +18,13 @@ Setting up a meeting room
 
 1. Choose a jitsi server
 
+   https://meeting.vm.uni-freiburg.de/ is the public Jitsi server of the Freiburg compute center.
+   Since it's located nearest to us it should offer rather good connectivity.
+
    https://meet.jit.si/ is the flagship public server of the project running
-   the latest code.
+   the latest code. Supports dial-in via phone.
    
-   https://jitsi.riot.im/ is a good alternative if the first server is
+   https://jitsi.riot.im/ is a good alternative if the other servers are
    down or overloaded, or if you are looking for Riot/Matrix integration
    (though that seems rather immature still).
    
