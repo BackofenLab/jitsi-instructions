@@ -6,7 +6,19 @@ Requirements
 
 On a desktop computer/notebook:
 
-- one of the following browsers: Chrome, Chromium, or Firefox
+- one of the following browsers: Chrome, Chromium
+
+.. Warning::
+
+   **Do not use Firefox** with jitsi right now. Although it may seem
+   to work for you without issues, it may have detrimental effects
+   on the meeting as a whole.
+   
+   The Freiburg compute center reports that with even just a few
+   participants using Firefox in a jitsi meeting, bandwidth use increases
+   substantially and transmission stability suffers for everyone.
+
+   In addition, Firefox also causes higher CPU loads than chrome/chromium.
 
 On Android:
 
@@ -18,8 +30,15 @@ Setting up a meeting room
 
 1. Choose a jitsi server
 
-   https://meeting.vm.uni-freiburg.de/ is the public Jitsi server of the Freiburg compute center.
+   https://meeting.vm.uni-freiburg.de/ is the public Jitsi server of the
+   Freiburg compute center.
+
    Since it's located nearest to us it should offer rather good connectivity.
+
+   It is also considered the only trusted solution since jitsi currently has
+   no end-to-end encryption (data gets sent over the internet in encrypted
+   form, but is not encrypted on clients and servers, i.e., you have to trust
+   the server admins not to spy on you).
 
    https://meet.jit.si/ is the flagship public server of the project running
    the latest code. Supports dial-in via phone.
